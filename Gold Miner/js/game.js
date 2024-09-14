@@ -178,7 +178,7 @@ class game {
             }
 
         this.context.beginPath();
-        this.context.strokeStyle  = "#FF0000";
+        this.context.strokeStyle  = "black";
         this.context.lineWidth = Math.floor(this.getWidth() / 10);
         this.context.moveTo(XXX, YYY);
         this.context.lineTo(Xh, Yh);
