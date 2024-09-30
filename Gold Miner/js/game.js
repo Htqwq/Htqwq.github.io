@@ -47,7 +47,11 @@ class game {
         this.render();
         this.newGold();
         this.initGold();
-        this.loop();
+        let i=1;
+        window.addEventListener('load', () => {
+            // 页面资源全部加载完毕后的代码
+            this.loop();
+        });
 
         // 监听鼠标和键盘，任意点击鼠标或按下任意一个键，hook 都会往外伸长
         this.listenKeyboard();
