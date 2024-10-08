@@ -20,14 +20,12 @@ var bg = new Image();
 bg.src="images/background.png";
 var hook = new Image();
 hook.src="images/hook.png";
-var targetIM = new Image();
-targetIM.src="images/target.png";
 var dolarIM = new Image();
 dolarIM.src="images/dolar.png";
-var levelIM = new Image();
-levelIM.src="images/level.png";
-var clockIM = new Image();
-clockIM.src="images/clock.png";
+// var targetIM = new Image();
+// targetIM.src="images/target.png";
+// var levelIM = new Image();
+// levelIM.src="images/level.png";
 
 let N = -10;  // 物品总数
 
